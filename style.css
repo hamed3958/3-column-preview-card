@@ -127,13 +127,13 @@ p {
   .item {
     width: 327px;
     height: 442px;
-    padding: 48px;
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1279px) {
-  .container {
-    margin: 0;
-    flex-flow: row nowrap;
-  }
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        margin: 0;
+        flex-flow: row nowrap;
+      }
 }
+
