@@ -17,6 +17,8 @@ html {
   font-weight: 700;
 }
 
+/*----------------------main---------------------*/
+
 h1 {
   font-family: "Big Shoulders Display";
   font-size: 40px;
@@ -31,21 +33,19 @@ p {
   margin: 25px 0 85px 0;
 }
 
-/*----------------------main---------------------*/
-
 .container {
   width: 920;
   height: 500;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-  margin: 48px;
+  margin: 50px;
 }
 
-.item{
-    width: 307px;
-    height: 500px;
-    padding: 48px;
+.item {
+  width: 307px;
+  height: 500px;
+  padding: 48px;
 }
 
 .item1 {
@@ -64,35 +64,76 @@ p {
   padding: 12px 32px;
   background: #f2f2f2;
   border-radius: 25px;
-  transition-duration: 0.4s;
+  transition-duration: 0.5s;
   cursor: pointer;
   text-align: center;
   border: 2px solid #f2f2f2;
 }
 
-.btn1{
-    color: hsl(31, 77%, 52%);
+.btn1 {
+  color: hsl(31, 77%, 52%);
 }
 
-.btn2{
-    color: hsl(184, 100%, 22%);
+.btn2 {
+  color: hsl(184, 100%, 22%);
 }
 
-.btn3{
-    color: hsl(179, 100%, 13%);
+.btn3 {
+  color: hsl(179, 100%, 13%);
 }
 
-.btn1:hover{
-    background-color: hsl(31, 77%, 52%);
-    color:  #f2f2f2;
+.btn1:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: #f2f2f2;
 }
 
-.btn2:hover{
-    background-color: hsl(184, 100%, 22%);
-    color: #f2f2f2;
+.btn2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: #f2f2f2;
 }
 
-.btn3:hover{
-    background-color: hsl(179, 100%, 13%);
-    color: #f2f2f2;
+.btn3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: #f2f2f2;
+}
+
+/*----------------------MEDIA QUERY-------------------*/
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 0;
+    width: 327px;
+    height: 1326px;
+  }
+
+  .item {
+    width: 327px;
+    height: 442px;
+    padding: 48px;
+  }
+
+  p {
+    margin: 27px 0;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    margin: 0;
+    width: 327px;
+    height: 1326px;
+  }
+
+  .item {
+    width: 327px;
+    height: 442px;
+    padding: 48px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .container {
+    margin: 0;
+    flex-flow: row nowrap;
+  }
 }
