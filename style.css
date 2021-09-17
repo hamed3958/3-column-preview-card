@@ -1,0 +1,17 @@
+*, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lexend Deca;
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Big Shoulders Display;
+    src: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+    font-weight: 700;
+}
