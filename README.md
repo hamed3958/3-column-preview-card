@@ -7,7 +7,10 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-![](Screenshot-3-column-preview-card-component.png)
+![Screenshot 3 column preview card component](Screenshot-3-column-preview-card-component.png)
+
+### Links
+- Live Site URL: [live site URL here](https://hamed3958.github.io/3-column-preview-card/)
 
 ### Built with
 - Semantic HTML5 markup
@@ -18,5 +21,3 @@ Users should be able to:
 - Website - [Hamed Asadi Asl](http://hamedasadiasl.ir/)
 - Frontend Mentor - [@hamed3958](https://www.frontendmentor.io/profile/hamed3958)
 - Github - [@hamed3958](https://github.com/hamed3958)
-
-
