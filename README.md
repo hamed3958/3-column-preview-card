@@ -18,6 +18,6 @@ Users should be able to:
 - Flexbox
 
 ## Author
-- Website - [Hamed Asadi Asl](http://hamedasadiasl.ir/)
+- Website - [hamedasadiasl.ir](http://hamedasadiasl.ir/)
 - Frontend Mentor - [@hamed3958](https://www.frontendmentor.io/profile/hamed3958)
 - Github - [@hamed3958](https://github.com/hamed3958)
