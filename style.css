@@ -111,9 +111,9 @@ p {
 
 /*----------------------MEDIA QUERY-------------------*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 992px) {
   .container {
-    margin: 0;
+    margin: 10px;
     width: 327px;
     height: 1326px;
   }
@@ -126,25 +126,5 @@ p {
 
   p {
     margin: 27px 0;
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .container {
-    margin: 0;
-    width: 327px;
-    height: 1326px;
-  }
-
-  .item {
-    width: 327px;
-    height: 442px;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 992px) {
-  .container {
-    margin: 0;
-    flex-flow: row nowrap;
   }
 }
